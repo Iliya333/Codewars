@@ -11,6 +11,9 @@ public class ReverseWords {
 
     public static String reverseWords(final String original) {
           String[] words = original.split(" ");
+          if (words.length == 0){
+              return original;
+          }
         StringBuilder builder = new StringBuilder();
         for (String s : words)
         {

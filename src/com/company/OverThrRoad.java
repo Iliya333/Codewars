@@ -9,9 +9,9 @@ public class OverThrRoad {
         System.out.println(overTheRoad(7,11));//16
     }
     public static Long overTheRoad(long address, long n ) {
+       return  (n*2) + 1- address;
 
 
 
-        return 0;
     }
 }

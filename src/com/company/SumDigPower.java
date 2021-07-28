@@ -10,6 +10,6 @@ public class SumDigPower {
     }
 
     public static List<Long> sumDigPow(long a, long b) {
-        return ;
+        return null;
     }
 }
